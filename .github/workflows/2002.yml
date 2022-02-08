@@ -10,8 +10,7 @@ on:
         description: 'SSH远程'
         required: true
         default: 'false'
-  schedule:
-    - cron: 0 8 * * 5
+
 env:
   REPO_URL: https://github.com/openwrt/openwrt.git
   REPO_BRANCH: master
