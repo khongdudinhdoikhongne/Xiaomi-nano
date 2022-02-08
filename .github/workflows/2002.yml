@@ -1,6 +1,8 @@
 name: 开始编译2022官方固件
 
 on:
+  schedule:
+    - cron: 0 8 * * 1
   repository_dispatch:
   workflow_dispatch:
     inputs:
